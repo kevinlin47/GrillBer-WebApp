@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [08/Jan/2018:12:11:18 -0500] "GET /spring-mvc/login HTTP/1.1" 404 949 http-bio-8080-exec-1 76
+0:0:0:0:0:0:0:1 - - [08/Jan/2018:12:11:22 -0500] "GET /GrillBer HTTP/1.1" 200 278 http-bio-8080-exec-4 312
+0:0:0:0:0:0:0:1 - - [08/Jan/2018:12:13:31 -0500] "GET /GrillBer HTTP/1.1" 200 278 http-bio-8080-exec-1 112
+0:0:0:0:0:0:0:1 - - [08/Jan/2018:12:13:37 -0500] "GET /GrillBer HTTP/1.1" 200 278 http-bio-8080-exec-2 9
+0:0:0:0:0:0:0:1 - - [08/Jan/2018:12:13:40 -0500] "GET /GrillBer HTTP/1.1" 200 278 http-bio-8080-exec-3 2
