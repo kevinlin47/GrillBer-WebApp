@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Welcome to GrillBer</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<a href="RentPage">Rent</a>
-	<p>Welcome to GrillBer</p>
+<p>Display Rent Page Test</p>
 </body>
 </html>
