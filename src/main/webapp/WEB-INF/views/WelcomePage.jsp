@@ -5,11 +5,30 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Welcome to GrillBer</title>
+<style>
+body{
+background-color:linen
+}
+
+h1{
+	color:white;
+	text-align:center;
+}
+
+h1 span{
+background-color:green;
+}
+</style>
 </head>
+
 <body>
-	<a href="RentPage">Rent</a>
-	<a href="InfoPage">Product Info</a>
-	<a href="ReviewPage">Reviews</a>
-	<p>Welcome to GrillBer</p>
+	<a href="RentPage" style="float:left;">Rent </a>
+
+	<a href="InfoPage" style="margin-left:900px;">Product Info</a>
+
+	<a href="ReviewPage" style="float:right;">Reviews</a>
+
+	<h1><span>Welcome to GrillBer</span></h1>
 </body>
+
 </html>
