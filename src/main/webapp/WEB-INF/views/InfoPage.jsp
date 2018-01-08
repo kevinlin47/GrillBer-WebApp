@@ -7,6 +7,6 @@
 <title>GrillBer</title>
 </head>
 <body>
-<p>Display Rent Page Test</p>
+<p>Product info page test</p>
 </body>
 </html>

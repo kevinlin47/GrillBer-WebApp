@@ -8,6 +8,8 @@
 </head>
 <body>
 	<a href="RentPage">Rent</a>
+	<a href="InfoPage">Product Info</a>
+	<a href="ReviewPage">Reviews</a>
 	<p>Welcome to GrillBer</p>
 </body>
 </html>
