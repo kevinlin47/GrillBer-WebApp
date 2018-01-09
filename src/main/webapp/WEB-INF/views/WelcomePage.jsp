@@ -9,6 +9,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Welcome to GrillBer</title>
 <style>
+.mySlides{display:none;}
+
+img{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
 .footer{
 bottom:0%;
 position:fixed
@@ -38,7 +46,37 @@ background-color:green;
 	<a href="ReviewPage" style="float:right; font-family: Arial,serif;">Reviews</a>
 
 	<h1><span>Welcome to GrillBer</span></h1>
+	<!--  
 	<p style="text-align:center;"><img src="<c:url value="/resources/images/GuyGrilling.jpg"></c:url>" width="500" height="377" align="middle"/></p>
+	-->
+	
+	<div>
+	<img class="mySlides" src="<c:url value="/resources/images/GuyGrilling.jpg"></c:url>" width="500" height="377">
+	<img class="mySlides" src="<c:url value="/resources/images/1.jpg"></c:url>" width="500" height="377" >
+	</div>
+
+	
+	<script type="text/javascript">
+	var myIndex=0;
+	carousel();
+	
+	function carousel()
+	{
+		var i;
+		var x=document.getElementsByClassName("mySlides");
+		for (i=0;i<x.length;i++)
+			{
+				x[i].style.display="none";
+			}
+		++myIndex;
+		if (myIndex>x.length)
+			{
+				myIndex=1;
+			}
+		x[myIndex-1].style.display="block";
+		setTimeout(carousel,2000);
+	}
+	</script>
 	
 	<p class=footer>Open Mon-Sun 10AM-10PM EST</p>
 </body>
