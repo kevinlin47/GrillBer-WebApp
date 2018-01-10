@@ -53,6 +53,7 @@ background-color:green;
 	<div>
 	<img class="mySlides" src="<c:url value="/resources/images/GuyGrilling.jpg"></c:url>" width="500" height="377">
 	<img class="mySlides" src="<c:url value="/resources/images/1.jpg"></c:url>" width="500" height="377" >
+	<img class="mySlides" src="<c:url value="/resources/images/gasGrill.jpeg"></c:url>" width="500" height="377">
 	</div>
 
 	
