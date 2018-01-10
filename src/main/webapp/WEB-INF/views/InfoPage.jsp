@@ -20,7 +20,7 @@ h1{
 	text-align:center;
 }
 
-p{
+pre{
 font-family: Arial,"Times New Roman", serif;
 font-size:35px;
 }
@@ -29,22 +29,26 @@ h1 span{
 background-color:green;
 }
 
-.img-with-text {
-    text-align: justify;
-    width: 377;
-}
-
 </style>
 </head>
 <body>
 <h1><span>Product Information</span></h1>
-
-<p>Napoleon Grills Rogue 425 Propane Gas Grill, </p>
-<p>Stainless Steel</p>
-
-<div>
+<table style="width:100%">
+<tr>
+<th style="font-size:30px;">Napoleon Grills Rogue 425 Propane Gas Grill</th>
+<th style="font-size:30px;">Charcoal Grill Offset Smoker - Black - Royal Gourmet</th>
+</tr>
+<tr>
+<td>
+<img src="<c:url value="/resources/images/gasGrillProduct.jpeg"></c:url>" style="  width:500px; height:377px ">
+</td>
+<td>
+<img src="<c:url value="/resources/images/cGrill.jpg"></c:url>" style=" width:500px; height:377px ">
+</td>
+</tr>
+<tr>
+<td>
 <ul>
-<li><img src="<c:url value="/resources/images/gasGrillProduct.jpeg"></c:url>" style=" width:500px; height:377px "></li>
 <li>Stainless Steel WAVE Cooking Grids</li>
 <li>Infrared SIZZLE ZONE Side Burner</li>
 <li>Space Saving Folding Shelves</li>
@@ -55,7 +59,27 @@ background-color:green;
 <li>Burger Capacity.</li>
 <li>Stainless Steel.</li>
 </ul>
-</div>
+</td>
+<td>
+<ul>
+<li>Dimensions: 45.3 inches (H) x 26.8 inches (W) x 48.0 inches (D)</li>
+<li>Frame Material: Steel</li>
+<li>Finish: Smooth</li>
+<li>Battery: No battery used</li>
+<li>Handle Material: Stainless Steel</li>
+<li>Lid Material: Steel</li>
+<li>Includes: Cooking Grate, Lid, Thermometer, Shelves</li>
+<li>Weight: 57.0 pounds</li>
+<li>Cooking Grate Material: Porcelain</li>
+<li>Protective Qualities: Heat-resistant</li>
+<li>Required, Not Included: Charcoal</li>
+<li>Care and Cleaning: Clean with Water</li>
+<li>Grill Surface Area: 780 sq. in.</li>
+<li>Appliance Capabilities: Grill, Smoker</li>
+</ul>
+</td>
+</tr>
+</table>
 
 </body>
 </html>
