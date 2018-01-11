@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@page import="org.springframework.context.ApplicationContext"%>
+<%@ page import="org.springframework.context.support.ClassPathXmlApplicationContext"%>
+<%@ page import="com.GrillBer.ReviewTemplateJDBC"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,5 +11,11 @@
 </head>
 <body>
 <p>Display Review page test</p>
+
+<%
+	ApplicationContext context=new ClassPathXmlApplicationContext("Beans.xml");
+	ReviewTemplateJDBC reviewTemplateJDBC=(ReviewTemplateJDBC)context.getBean("reviewTemplateJDBC");
+	reviewTemplateJDBC.update(1);
+%>
 </body>
 </html>

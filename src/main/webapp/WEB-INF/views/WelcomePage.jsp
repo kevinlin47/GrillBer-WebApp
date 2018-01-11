@@ -11,6 +11,27 @@
 <style>
 .mySlides{display:none;}
 
+.topnav{
+overflow:hidden;
+background-color:#333;
+}
+
+.topnav a {
+
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 img{
 display:block;
 margin-left:auto;
@@ -39,16 +60,16 @@ background-color:green;
 </head>
 
 <body>
-	<a href="RentPage" style="float:left; font-family: Arial,serif;">Rent </a>
+	<div class="topnav">
+	<a href="RentPage" style="font-family: Arial,serif;">Rent </a>
 
-	<a href="InfoPage" style="margin-left:900px; font-family: Arial,serif;">Product Info</a>
+	<a href="InfoPage" style="margin-left:800px; font-family: Arial,serif;">Product Info</a>
 
 	<a href="ReviewPage" style="float:right; font-family: Arial,serif;">Reviews</a>
-
+	</div>
+	
 	<h1><span>Welcome to GrillBer</span></h1>
-	<!--  
-	<p style="text-align:center;"><img src="<c:url value="/resources/images/GuyGrilling.jpg"></c:url>" width="500" height="377" align="middle"/></p>
-	-->
+
 	
 	<div>
 	<img class="mySlides" src="<c:url value="/resources/images/GuyGrilling.jpg"></c:url>" width="500" height="377">
