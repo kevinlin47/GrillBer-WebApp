@@ -204,3 +204,13 @@
 0:0:0:0:0:0:0:1 - - [11/Jan/2018:19:43:48 -0500] "GET /RentPage HTTP/1.1" 200 3159 http-bio-8080-exec-1 63
 0:0:0:0:0:0:0:1 - - [11/Jan/2018:19:47:15 -0500] "GET /RentPage HTTP/1.1" 200 3200 http-bio-8080-exec-9 58
 0:0:0:0:0:0:0:1 - - [11/Jan/2018:19:47:57 -0500] "GET /RentPage HTTP/1.1" 200 3206 http-bio-8080-exec-9 50
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:22:02 -0500] "GET /GrillBer HTTP/1.1" 200 1831 http-bio-8080-exec-1 100
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:22:04 -0500] "GET /RentPage HTTP/1.1" 200 3206 http-bio-8080-exec-2 17
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:22:15 -0500] "POST /RentPage HTTP/1.1" 200 1831 http-bio-8080-exec-3 15
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:22:27 -0500] "GET /InfoPage HTTP/1.1" 200 1903 http-bio-8080-exec-4 15
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:22:27 -0500] "GET /resources/images/gasGrillProduct.jpeg HTTP/1.1" 304 - http-bio-8080-exec-5 10
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:22:27 -0500] "GET /resources/images/cGrill.jpg HTTP/1.1" 304 - http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:23:21 -0500] "GET /GrillBer HTTP/1.1" 200 1831 http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:23:24 -0500] "GET /ReviewPage HTTP/1.1" 200 3699 http-bio-8080-exec-7 259
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:23:39 -0500] "GET /RentPage HTTP/1.1" 200 3206 http-bio-8080-exec-7 7
+0:0:0:0:0:0:0:1 - - [11/Jan/2018:20:23:41 -0500] "GET /InfoPage HTTP/1.1" 200 1903 http-bio-8080-exec-7 6

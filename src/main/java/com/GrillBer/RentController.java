@@ -16,6 +16,6 @@ public class RentController {
 	@RequestMapping(value="/RentPage", method=RequestMethod.POST)
 	public String goToCheckOut()
 	{
-		return "WelcomePage";
+		return  "redirect:/GrillBer";
 	}
 }

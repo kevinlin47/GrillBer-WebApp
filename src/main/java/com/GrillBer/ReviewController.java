@@ -23,6 +23,6 @@ public class ReviewController {
 		ReviewTemplateJDBC reviewTemplateJDBC=(ReviewTemplateJDBC)context.getBean("reviewTemplateJDBC");
 		reviewTemplateJDBC.update(Integer.parseInt(rating));
 		
-		return "WelcomePage";
+		return "redirect:/GrillBer";
 	}
 }
