@@ -68,6 +68,13 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+
+.footer{
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
+
 </style>
 </head>
 <body>
@@ -75,13 +82,13 @@ input[type=submit]:hover {
 <h2>Grill Renting Form:</h2>
 
 <div class="container">
-  <form action="/action_page.php">
+  <form action="/RentPage" method="POST">
     <div class="row">
       <div class="col-25">
         <label for="fname">First Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
       </div>
     </div>
     <div class="row">
@@ -98,6 +105,17 @@ input[type=submit]:hover {
       </div>
       <div class="col-75">
         <input type="text" id="Address" name="address" placeholder="Your Address..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="GrillType">Grill Type</label>
+      </div>
+      <div class="col-75">
+        <select id="GrillType" name="grillType">
+          <option value="Gas">Gas Grill</option>
+          <option value="Char">Charcoal Grill</option>
+        </select>
       </div>
     </div>
     <div class="row">
@@ -119,5 +137,12 @@ input[type=submit]:hover {
   </form>
 </div>
 
+<div class="footer">
+<p>Service ONLY available in NYC<br>
+Hourly Rate: Gas-$10, Charcoal-$5<br>
+$10 Cleaning fee if returned unclean<br>
+Contact gbSupport@gmail.com for any questions or problems
+</p>
+</div>
 </body>
 </html>

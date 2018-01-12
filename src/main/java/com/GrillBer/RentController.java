@@ -12,4 +12,10 @@ public class RentController {
 	{
 		return "RentPage";
 	}
+	
+	@RequestMapping(value="/RentPage", method=RequestMethod.POST)
+	public String goToCheckOut()
+	{
+		return "WelcomePage";
+	}
 }
