@@ -19,4 +19,24 @@
     	<url-pattern>/</url-pattern>
     </servlet-mapping>
     
+    <context-param>
+		<param-name>authtoken</param-name>
+		<param-value>DhIbSMqPgHHxQWwom0JPCewu1oEJnvl_H6Ql2up0925PaiXJIjMU0LY05pm</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>posturl</param-name>
+    	<param-value>https://www.sandbox.paypal.com/cgi-bin/webscr</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>business</param-name>
+    	<param-value>kevinlin47-facilitator@live.com</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>returnurl</param-name>
+    	<param-value>http://localhost:8080/GrillBer</param-value>
+    </context-param>
+    
 </web-app>

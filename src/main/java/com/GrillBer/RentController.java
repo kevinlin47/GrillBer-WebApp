@@ -18,7 +18,7 @@ public class RentController {
 	
 	@RequestMapping(value="/RentPage", method=RequestMethod.POST)
 	public String goToCheckOut(@RequestParam String firstname,@RequestParam String lastname,@RequestParam String address
-	,@RequestParam String grillType,@RequestParam String Hours,@RequestParam String email)
+	,@RequestParam String grillType,@RequestParam String Hours,@RequestParam(value="email") String email)
 	{	
 		Integer hours=Integer.parseInt(Hours);
 		
@@ -29,6 +29,6 @@ public class RentController {
 		
 		rentJDBCTemplate.createOrder(name, email, address, grillType, hours);
 		
-		return  "redirect:/GrillBer";
+		return  "payment";
 	}
 }

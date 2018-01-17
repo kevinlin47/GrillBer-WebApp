@@ -147,6 +147,7 @@ input[type=submit]:hover {
 
 <div class="footer">
 <p>Service ONLY available in NYC<br>
+Only Accepting PayPal Payment<br>
 Hourly Rate: Gas-$10, Charcoal-$5<br>
 $10 Cleaning fee if returned unclean<br>
 Contact gbSupport@gmail.com for any questions or problems
